@@ -3,6 +3,9 @@ HD_ISOLET: Speech recognition using Hyperdimensional Computing
 
 ## Instructions
 
+### Dataset
+ - https://www.dropbox.com/s/4jegzwp7p4epdkd/isolet.pkl?dl=0
+
 ### Background
  - https://archive.ics.uci.edu/ml/datasets/isolet
 
