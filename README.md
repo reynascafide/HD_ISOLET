@@ -15,6 +15,6 @@ HD_ISOLET: Speech recognition using Hyperdimensional Computing
 ### Run the application.
  - python HDC_model.py --app_ isolet --iter_ 20 --dimension_ 10000
 
- - --app_ Correlative dataset
- - --iter_ Retraining epochs
- - --dimension_ Dimension using in HDC_model
+ - --app_: Correlative dataset
+ - --iter_: Retraining epochs
+ - --dimension_: Dimension using in HDC_model
