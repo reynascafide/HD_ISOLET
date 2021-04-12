@@ -183,6 +183,7 @@ class HyperDimensionalComputing(object):
             currClassHV, _ = self.oneShotTraining(currClassHV, trainHVs, trainLabels, testHVs, testLabels,)
             currAcc = self.test(currClassHV, testHVs, testLabels)
             print('Epoch', i, 'accuracy:', currAcc)
+            print('The hypervectors for Epoch', i, ':', classHvs)
             if currAcc > bestacc:
                 bestAcc = currAcc
                 bestWeight = currClassHV
